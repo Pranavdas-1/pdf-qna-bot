@@ -123,17 +123,10 @@ python-dotenv
 This project implements a basic **Retrieval-Augmented Generation (RAG)** pipeline:
 
 1. **Load** — PDF is loaded using PyPDFLoader
-2. **Split** — Document split into 1000-character chunks with 200-character overlap
+2. **Split** — Document split into 1000-character chunks with 200-character overl
 3. **Embed** — Each chunk converted to a vector using Gemini Embeddings
 4. **Store** — Vectors stored in InMemoryVectorStore
 5. **Retrieve** — User query embedded and top 3 similar chunks fetched
 6. **Generate** — Gemini LLM answers based only on retrieved context
 
 ---
-
-## Author
-
-**Pranav Das**
-B.Tech CSE — College of Engineering Chengannur (KTU, 2026)
-
-[LinkedIn](https://linkedin.com/in/yourprofile) · [GitHub](https://github.com/yourusername) · [Behance](https://behance.net/yourprofile)
