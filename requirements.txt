@@ -2,9 +2,9 @@ langchain-google-genai
 langchain
 langchain-text-splitters
 langchain-community
-dotenv
+python-dotenv
 pypdf
-streamlit
+python-multipart
 fastapi
 uvicorn
 tiktoken
