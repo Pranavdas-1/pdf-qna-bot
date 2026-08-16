@@ -9,3 +9,4 @@ fastapi
 uvicorn
 tiktoken
 chromadb
+langchain-chroma
